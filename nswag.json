@@ -2,7 +2,7 @@
 	"runtime": "Net90",
 	"documentGenerator": {
 		"aspNetCoreToOpenApi": {
-			"project": "Presentation.csproj",
+			"project": "NswagGen.csproj",
 			"msBuildProjectExtensionsPath": null,
 			"configuration": null,
 			"runtime": null,
@@ -33,7 +33,7 @@
 			"serviceHost": null,
 			"serviceBasePath": null,
 			"serviceSchemes": [],
-			"infoTitle": "Artesis API",
+			"infoTitle": "Nswag API",
 			"infoDescription": null,
 			"infoVersion": "1.0.0",
 			"documentTemplate": null,
@@ -50,7 +50,7 @@
 			"startupType": null,
 			"allowNullableBodyParameters": true,
 			"useHttpAttributeNameAsOperationId": false,
-			"output": "wwwroot/specification.json",
+			"output": "wwwroot/openapi.json",
 			"outputType": "OpenApi3",
 			"newLineBehavior": "Auto",
 			"assemblyPaths": [],
@@ -103,7 +103,7 @@
 			"exportTypes": true,
 			"enumStyle": "Enum",
 			"useLeafType": false,
-			"output": "/Web/src/app/core/api/apiClient.ts",
+			"output": "/PathToClientApp/apiClient.ts",
 			"newLineBehavior": "Auto"
 		}
 	}
