@@ -1,0 +1,6 @@
+@NswagGen_HostAddress = http://localhost:5171
+
+GET {{NswagGen_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
